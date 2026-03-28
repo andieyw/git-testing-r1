@@ -4,7 +4,7 @@ def is_palindrome(s):
         if char.isalnum(): #method to delete all non-letters???
             clean_s=clean_s+char.lower()  #method to make s lowercase cause ignore
         
-    s=clean_s
+    s=clean_s #dont need this next time
     
     left=0
     right=len(s)-1
