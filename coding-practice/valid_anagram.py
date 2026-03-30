@@ -23,6 +23,7 @@ def valid_anagram(s,t):
             
     return True
     
+    
 print(valid_anagram("car", "rac")) #True
 print(valid_anagram("great", "regat")) #True
 print(valid_anagram("grin", "irne")) #False
@@ -30,8 +31,6 @@ print(valid_anagram("grin", "irne")) #False
 print(valid_anagram("grin", "irngg")) #False 
 #no letters
 print(valid_anagram("", "")) #True
-
-
 
 #caps
 #non-char
