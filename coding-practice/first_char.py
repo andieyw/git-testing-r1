@@ -9,8 +9,7 @@ def first_char(s):
         
     for i, char in enumerate(s):
         if seen[char] ==1:
-            return i
-         
+            return i 
      
 print(first_char("leetcode"))     # 0
 print(first_char("loveleetcode")) # 2
