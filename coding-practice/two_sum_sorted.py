@@ -8,6 +8,7 @@ def incorrect_sorted(numbers, target):
         i+=1
         
         
+        
 def two_sum_sorted(numbers, target):
     left = 0
     right = len(numbers)-1
