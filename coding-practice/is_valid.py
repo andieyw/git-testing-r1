@@ -9,6 +9,7 @@ def is_valid(s: str) -> bool:
     """
     
     stack = []
+    # be careful with mapping and what is key vs value
     mapping = {
         ')': '(',
         ']': '[',
